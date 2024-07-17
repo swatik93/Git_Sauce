@@ -16,5 +16,6 @@ public class LoginPage extends Demo1 {
     public void validate() {
     	driver.findElement(By.name("user-name")).sendKeys("standard_user");
     	driver.findElement(By.name("password")).sendKeys("secret_sauce");
+    	driver.findElement(By.name("login-button")).click();
 }
 }
